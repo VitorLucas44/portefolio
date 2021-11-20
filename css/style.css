@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image: url("../import/images/blanc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+navbar{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+    h1 {
+        color:#DC143C;
+        align-content: center;
+    }
+    p {
+        color: black;
+    line-height: 22px;
+         }
+
+         label {
+            display: block;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+        
+        input,
+        label {
+            margin: .4rem 0;
+        }
+
+        .bodycontact.php {
+            margin: 0px;
+            padding: 0px;
+            background-color: #fef1df;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+          }
+          
+          .global {
+            padding: 30px;
+            background-color: grey;
+            border-radius: 10px;
+            align-items: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 30px;
+          }
+          .global h1 {
+            font-size: 20px;
+            padding-left: 50px;
+          }
+          .groupe p{
+            margin-left: 50px;
+
+          }
+          form .separation {
+            width: 100%;
+            height: 1px;
+            background-color: black;
+          }
+          form .corps-formulaire {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+            margin-left: 500px;
+          }
+          form .corps-formulaire .groupe {
+            position: relative;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+          }
+          form .corps-formulaire .gauche .groupe input {
+            margin-top: 5px;
+            padding: 10px 5px 10px 20px;
+            border: 1px solid #c9c9c9;
+            outline-color:red;
+            border-radius: 5px;
+          }
+
+        form {
+          margin-left: 50px;
+        }
+
+        input {
+          width: 400px;
+          height: 50px;
+          }
+          textarea {
+            width: 400px;
+          height: 50px;
+
+          }
+     
+        
+        .grid {
+            display: grid;
+            /* display: flex;
+            flex-wrap: wrap; */
+            grid-template-columns: repeat(3, 200px);
+            justify-content: center;
+            align-content: center;
+            grid-gap: 10px;
+            height: 100vh;
+            
+           
+          }
+          
+          .grid img {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            
+          }
+
+          
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+  
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+  }
+
+
+  .detel-liens{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.detel-liens h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
+    
+}
+
+.detel-liens p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel-liens a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.detel-liens h2{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+footer{
+  margin-top: 200px;
+  margin-left: 1200px;
+}
+
+.detel-tuto {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.detel-tuto h1{
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span{
+  color: red;
+  
+}
+
+.detel-tuto p{
+  color: #555;
+  line-height: 22px;
+}
+
+.detel-tuto a{
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.detel-tuto h2{
+font-size: 20px;
+color: black;
+margin-bottom: 10px;
+}

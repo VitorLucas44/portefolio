@@ -24,7 +24,8 @@
             <ul>
         </nav>
         <div class="detel">
-            <h1>En cours de chargement... <span></span></h1>
+            <h1>Bonjour, je suis <span>Vitor Lucas Santos</span></h1>
+            <p>Bienvenue dans mon portefolio.<br>Je suis actuellement en formation en tant que web développer.<br>Vous trouverez ici plusieurs informations me concernant notamment mon travail ainsi que divers liens utiles dans ce monde de développement.<br>Bonne navigation !</p>
         </div>
         <footer>
             @copyright 2021 - Vitor Lucas Santos
