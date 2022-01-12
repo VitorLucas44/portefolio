@@ -1,7 +1,7 @@
 <div class="navbar">
     <nav>
         <ul>
-            <li><a href="./">Acceuil</a></li>
+            <li><a href="./?pg=accueil">Accueil</a></li>
             <li><a href="./?pg=tuto">Tutoriels</a></li>
             <li><a href="./?pg=galerie">Galerie</a></li>
             <li><a href="./?pg=cv">Curriculum</a></li>
